@@ -10,11 +10,9 @@ Password: 123
 
 ## 演示
 
-![0](https://gitee.com/retrocode/picture_bed/raw/master/image/20220113054433.png)
+![filename](./res/1.png)
 
-![1](https://gitee.com/retrocode/picture_bed/raw/master/image/20220113053408.png)
-
-![2](https://gitee.com/retrocode/picture_bed/raw/master/image/20220113053437.png)
+![demo](./res/demo.gif)
 
 ## 使用方式
 

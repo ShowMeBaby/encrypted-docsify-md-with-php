@@ -10,11 +10,9 @@ Password: 123
 
 [https://retrocode.io/#/%E6%8A%80%E5%B7%A7/password-123.md.auth](https://retrocode.io/#/%E6%8A%80%E5%B7%A7/password-123.md.auth)
 
-![0](https://gitee.com/retrocode/picture_bed/raw/master/image/20220113054433.png)
+![filename](./res/1.png)
 
-![1](https://gitee.com/retrocode/picture_bed/raw/master/image/20220113053408.png)
-
-![2](https://gitee.com/retrocode/picture_bed/raw/master/image/20220113053437.png)
+![demo](./res/demo.gif)
 
 ## How to use
 
