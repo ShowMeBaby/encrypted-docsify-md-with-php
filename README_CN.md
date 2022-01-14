@@ -92,9 +92,9 @@ if (isset($_COOKIE['auth']) || isset($_GET['auth'])) {
   $mdpath = __DIR__ . implode("/", $patharr);
   $files = scandir($mdpath);
   foreach ($files as $filename) {
-    if (startWith($filename, $basename) && endWith($filename, '.auth')) {
+    if (startWith($filename, $basename) && endWith($filename, '.auth.md')) {
       $password = str_replace($basename . ".", "", $filename);
-      $password = str_replace(".auth", "", $password);
+      $password = str_replace(".auth.md", "", $password);
       if (md5($password) === $cookieValue) {
         echo $filecontent = file_get_contents($mdpath . "/" . $filename);
         exit;
@@ -117,11 +117,11 @@ if (isset($_COOKIE['auth']) || isset($_GET['auth'])) {
     $files = scandir($path);
     foreach ($files as $filename) {
         $suffix =  pathinfo($filename, PATHINFO_EXTENSION);
-        if ($filename !== "." && $filename !== ".." && ($suffix === "md" || $suffix === "auth")) {
-            // 移除文件名中的加密密码
-            if ($suffix === "auth") {
+        if ($filename !== "." && $filename !== ".." && $suffix === "md") {
+            // 删除加密MD文件中的密码
+            if (endWith($filename, '.auth.md')) {
               $tmpfns = explode(".", $filename);
-              unset($tmpfns[count($tmpfns)-2]);
+              unset($tmpfns[count($tmpfns)-3]);
               $filename = implode(".",$tmpfns);
             }
             $fileRealPath = $categoryName . "/" . $filename;

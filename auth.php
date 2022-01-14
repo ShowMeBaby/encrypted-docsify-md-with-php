@@ -34,9 +34,9 @@ if (isset($_COOKIE['auth']) || isset($_GET['auth'])) {
   $mdpath = __DIR__ . implode("/", $patharr);
   $files = scandir($mdpath);
   foreach ($files as $filename) {
-    if (startWith($filename, $basename) && endWith($filename, '.auth')) {
+    if (startWith($filename, $basename) && endWith($filename, '.auth.md')) {
       $password = str_replace($basename . ".", "", $filename);
-      $password = str_replace(".auth", "", $password);
+      $password = str_replace(".auth.md", "", $password);
       if (md5($password) === $cookieValue) {
         echo $filecontent = file_get_contents($mdpath . "/" . $filename);
         exit;
