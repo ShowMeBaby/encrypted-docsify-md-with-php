@@ -35,7 +35,7 @@ example:
 ````markdown
 
 * category
-    * [testPassword](category/testPassword.md.auth)
+    * [testPassword](category/testPassword.auth.md)
 
 ````
 
