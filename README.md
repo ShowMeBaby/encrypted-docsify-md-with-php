@@ -18,11 +18,11 @@ Password: 123
 
 Append .password.auth to the suffix of the md file.
 
-> filename.md.passwprd.auth
+> filename.passwprd.auth.md
 
 example:
 
-> testPassword.md.123.auth
+> testPassword.123.auth.md
 
 At the same time, please modify the file path in **_sidebar.md** to
 
