@@ -18,11 +18,11 @@ Password: 123
 
 在md文件后缀追加 .password.auth 即可.
 
-> filename.md.passwprd.auth
+> filename.passwprd.auth.md
 
 例如:
 
-> testPassword.md.123.auth
+> testPassword.123.auth.md
 
 同时请将**_sidebar.md**中的文件路径修改为
 
