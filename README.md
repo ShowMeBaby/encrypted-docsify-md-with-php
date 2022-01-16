@@ -26,7 +26,7 @@ example:
 
 At the same time, please modify the file path in **_sidebar.md** to
 
-> filename.md.auth
+> filename.auth.md
 
 **remove the encrypted password (the encrypted password only exists in the source file)**
 
