@@ -26,7 +26,7 @@ Password: 123
 
 同时请将**_sidebar.md**中的文件路径修改为
 
-> filename.md.auth
+> filename.auth.md
 
 即**移除加密密码(加密密码只存在于源文件中)**
 
