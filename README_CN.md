@@ -6,7 +6,7 @@
 
 Password: 123
 
-[https://retrocode.io/#/%E6%8A%80%E5%B7%A7/password-123.md.auth](https://retrocode.io/#/%E6%8A%80%E5%B7%A7/password-123.md.auth)
+[https://retrocode.io/#/%E6%8A%80%E5%B7%A7/password-123.auth.md](https://retrocode.io/#/%E6%8A%80%E5%B7%A7/password-123.auth.md)
 
 ## 演示
 
